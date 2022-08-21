@@ -1,5 +1,22 @@
 <template>
-  <div class="flex h-screen bg-slate-600 h-[100vh] align-middle text-center">
+<!-- menu bar ztm-video tutorial-->
+  <div id='header' class="bg-[url('/hero-bg.jpg')] bg-slate-600">
+    <div id='menu' class='grid grid-cols-2 py-5'>
+
+      <div id='menu-left'>
+        <img src="logo.png" class="w-[150px]" alt=""/>
+      </div>
+
+      <div id='menu-right'>
+        <ul class="grid grid-cols-4 text-lg font-oswald
+        text-white uppercase pt-5">
+          <li>About Us</li>
+          <li>Our Menu</li>
+          <li>Locations</li>
+          <li>Contacts</li>
+        </ul>
+  
+    <div class="flex h-screen bg-slate-600 h-[100vh] align-middle text-center px-40">
     <div class="m-auto">
       <div class="flex justify-center mb-3 p-4">
           <!--White Card-->
@@ -15,10 +32,9 @@
               <!--Facebook button-->
               <div class="flex justify-center mt-3 mb-5">
                 <button>
-                  <a href="link to be added" class="button">
+                  <a href="link to be added" class="button" title="Facebook">
                     <svg
                     class="mx-1 w-6 h-6 text-blue-600 fill-current hover:bg-blue-100 rounded shadow"
-                    title="Facebook"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24">
                     <path
@@ -29,10 +45,9 @@
                 </button>
                 <!--LinkedIn button-->
                 <button>
-                  <a href="link to be added" class="button">
+                  <a href="link to be added" class="button" title="LinkedIn">
                     <svg
                     class="mx-1 w-6 h-6 text-blue-500 fill-current hover:bg-gray-100 rounded shadow"
-                    title="LinkedIn"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512">
                     <path
@@ -46,4 +61,10 @@
           </div>
         </div>
     </div>
+      
+      
+      
+      </div>
+    </div>
+  </div>
 </template>

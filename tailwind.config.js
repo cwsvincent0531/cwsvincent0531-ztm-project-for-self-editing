@@ -1,6 +1,5 @@
 module.exports = {
   content: [
-    './pages/index.vue',
   ],
   theme: {
     fontFamily: {
